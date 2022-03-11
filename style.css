@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 *{
    box-sizing: border-box;
-   font-family: 'fredoka';
+   font-family: Open+Sans;
+}
+
+:root{
+    --bg-gray: #E8E8E8;
+    --color-primary: #4D41C0;
+    --white: #ffffff;
 }
 
 html, body{
-    background: #E8E8E8;
-
+    background: var(--bg-gray)
 }
 nav{
     display: flex;
@@ -15,12 +21,38 @@ nav{
     justify-content: space-between;    
 }
 
+nav h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0%;
+}
+
 header{
-    background-color:#4D41C0;
+    align-items: center;
+    display: flex;
+    height: 60px;
     color: white;
+    background-color:#4D41C0
 }
 
 a, a:hover{
     color: unset;
     text-decoration: none;
+}
+
+a nav{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.dsmovie-contact-container{
+    display: flex;
+    align-items: center;
+}
+
+.dsmovie-contact-container img{
+    margin-right: 10px;
 }
