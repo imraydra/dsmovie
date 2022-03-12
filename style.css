@@ -63,7 +63,7 @@ a nav{
 }
 
 .dsmovie-card{
-    width: 360px;
+    width: 100%;
 }
 
 .dsmovie-card img{
@@ -78,12 +78,16 @@ a nav{
     align-items: center;
     background-color: white;
     border-radius: 0 0 8px 8px;
+    min-height: 150px;
+    justify-content: space-between;
+    padding: 10px 20px 20px 20px;
 }
 
 .dsmovie-card-descripition h3{
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .dsmovie-btn , .dsmovie-btn:hover{
